@@ -1,49 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Indresh Bharati</title>
-    <!-- 1. bootstrap icons cdn file  -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indresh Bharati</title>
+  <link rel="shortcut icon" href="./images/img/favicon.ico" type="image/x-icon">
+  <!-- cdn files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- cdn files end -->
+  <!-- own css  -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive-style.css" />
+</head>
 
-    <!-- link external css file  -->
-    <link rel="stylesheet" href="./css/style.css" />
+<body>
+  <!-- header design -->
+  <header>
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container mt-0">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" width="200px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-stream"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#slills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!-- <li><button class="main-btn">+91-7054220354</button></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <!-- link bootstrap cdn file -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-
-    <!-- external  javascript file add  -->
-    <script src="./Js/script.js"></script>
-  </head>
-
-  <body>
-    <!-- new update portfolio website design by using html css bootstrap and js  -->
-    <!-- 1. header design using bootstrap -->
-    <div id="navbar">
-      
+  <!-- section 1 top-banner design  -->
+  <section id="home">
+    <div class="container-fluid px-0 top-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <h1>Indresh Bharati</h1>
+            <h3>Computer Science And Engineering</h3>
+            <p>
+              I am looking for an opportunity to use my skills and abilities
+              to make a positive impact on an organization. I am a team
+              player, I am committed to continuous learning and willing to
+              take on new challenges.
+            </p>
+            <div class="mt-4">
+              <button class="main-btn">
+                Resume <i class="fas fa-download ps-3"></i>
+              </button>
+              <button class="main-btn ms-lg-4 mt-lg-0 mt-4">
+                Contact <i class="fas fa-rocket ps-3"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- hero section design  -->
-<div id="hero" style="height: 700px;">
+  </section>
 
-</div>
-    <!-- footer design  -->
-    <div class="footer"></div>
+  <!-- section 2 counter  -->
+  <section id="counter">
+    <section class="counter-section">
+      <div class="container">
+        <div class="row text-center justify-content-around">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count1"></span>5+</h2>
+            <p class="text-bg-light">Projects Complete</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2><span id="count2"></span>3+</h2>
+            <p class="text-bg-light">Intership Complete</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- section 3 about -->
+  <section id="about">
+    <div class="about-section wrapper">
+      <h1 class="text-center">About</h1>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+            <div class="card border-0">
+              <img src="./images/img/img-2.png" alt="" class="img-fluid w-75" />
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 text-sec">
+            <h2>I am Indresh Bharati</h2>
+            <p>
+              I hail from district Maharajganj UP now I put up in sector 62
+              noida I am done my BTech in computer Science and engineering
+              from NIET .
+            </p>
+            <button class="main-btn mt-4">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- bootstrap cdn file  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- skill section start  -->
+  <section id="skill">
+    <div class="skill-section wrapper">
+      <h1>My <span> Skills</span></h1>
+      <p>Here is my skill to represent my Expertise</p>
+    </div>
+    <div class="skill-main">
+      <div class="skill-bar">
+        <div class="info">
+          <p>HTML</p>
+          <p>90%</p>
+        </div>
+        <div class="bar">
+          <span class="html"></span>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <div class="info">
+          <p>css</p>
+          <p>80%</p>
+        </div>
+        <div class="bar">
+          <span class="css"></span>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <div class="info">
+          <p>bootstrap</p>
+          <p>75%</p>
+        </div>
+        <div class="bar">
+          <span class="bootstrap"></span>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <div class="info">
+          <p>JAVA</p>
+          <p>70%</p>
+        </div>
+        <div class="bar">
+          <span class="java"></span>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <div class="info">
+          <p>Github</p>
+          <p>50%</p>
+        </div>
+        <div class="bar">
+          <span class="github"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 10 footer  -->
+  <section id="footer">
+    <div class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#">Register</a>
+            <a class="footer-link" href="#">Form</a>
+            <a class="footer-link" href="#">FAQ</a>
+            <a class="footer-link" href="#">Affiliate</a>
+          </div>
+          <div class="footer-social pt-4 text-center">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-yahoo"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="footer-copy">
+            <div class="copy-right text-center pt-5">
+              <p class="text-white">
+                ©2023. All rights Reserved. Desigined By Indresh Bharati
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- js libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <!-- the end  -->
+  <!-- own js  -->
+  <script src="./JavaScript/main.js"></script>
+</body>
+
 </html>
