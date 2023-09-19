@@ -31,9 +31,9 @@
     /* ===== variable define ====== */
 
     :root{
-        --primary-color: #284387;
-        --secondry-color:#6bb9f0;
-        --third-color:#172f3d;
+        --primary-color: #265c8f;
+        --secondry-color:#0464f5;
+        --third-color:#7245ee;
         --white-color: #fff;
         --text-color:#000000;
         --text-gray:#999;
@@ -107,17 +107,26 @@ p{
     line-height: 1.75rem;
     letter-spacing: 1px;
 }
+.name-effect{
+    text-align: center;
+    border-bottom: 2px solid rgb(9, 146, 238);
+    border-radius: 10px;
+    
+    box-shadow: 5px 10px 15px -2px rgb(19, 113, 255);
+    
+}
 .main-btn{
     display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 1.5625rem;
     background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
+    border-radius: 15px;
     color: var(--white-color);
     font-size: 0.9378rem;
     font-weight: 600;
     text-transform: capitalize;
-    box-shadow: 0px 2px 10px -1px rgb(0, 0, 0 / 19%);
+    box-shadow: 5px 10px 20px -1px rgb(19, 113, 255);
     -webkit-transition: all .4s ease-out 0s;
     -o-transition: all .5s ease-out 0s ;
     -moz-transition: all .4s ease-out 0s;
@@ -151,8 +160,8 @@ p{
     border-color: var(--primary-color);
 }
 .wrapper{
-    padding-top: 8.24rem;
-    padding-bottom: 8.24rem;
+    padding-top: 7.24rem;
+    padding-bottom: 1rem;
 }
 .text-content{
     width: 70%;
@@ -163,6 +172,13 @@ p{
 .book-food-text h2{
     color: var(--white-color);
 
+}
+/* skills */
+.zoom-effect{
+    transition: 0.3s;
+}
+.zoom-effect:hover{
+    transform: scale(1.1);
 }
     /* header design  */
 .navigation-wrap{
@@ -219,6 +235,7 @@ p{
     }
 
 
+
     /* section 3 about  */
     .about-section{
         background: var(--white-color);
@@ -231,7 +248,36 @@ p{
     .about-section .text-sec{
         padding-left:2rem ;
     }
+    /* skill  */
+    .html{
+        height: 10px;
+        background-color: #eeff05;
+        border-radius: 15px;
+    }
+    .css{
+        height: 8px;
+        background-color: #05f7ff;
+        border-radius: 15px;
+    }
+    .bootstrap{
+        height: 5px;
+        background-color: #55ff06;
+        border-radius: 15px;
+    }
+    .java{
+        height: 9px;
+        background-color: #cc00ff;
+        border-radius: 15px;
+    }
+    /* skill section end  */
 
+    /* education  */
+    .education-title{
+        border: 3px solid transparent;
+        border-radius: 2px ;
+        background: var(--primary-color);
+        color: var(--white-color);
+    }
     /* section 10 footer   */
 
     .footer{

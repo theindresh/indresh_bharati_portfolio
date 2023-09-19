@@ -41,56 +41,12 @@
         font-size: 2rem;
         line-height: 2.875rem;
     }
-
-
-    /* top banner brand  */
-    .top-banner{
-        padding: 10.875rem 0 9.375rem;
-    }
-
-    /* story section  */
-
-    
-    /* banner design  */
-    
-    /* crousel design  */
-
-    .footer .footer-link,
-    .footer a i{
-        padding: 0.0.7rem;
+    .img-res{
+       margin-left: 7rem;
     }
 
 }
 @media (max-width:330px){
-    /* custom class */
 
-
-    /* navbar brand  */
-    
-    
-    /* banner design  */
-    
-    /* crousel design  */
-
-    
-    /* header design  */
-
-    /* section 1 top-banner design   */
-
-    /* section 2 counter  */
-
-    /* section 3 about  */
-
-    /* section 4 story   */
-
-    /* section 5 explore food   */
-
-    /* section 6 testimonial   */
-
-    /* section 7 faq   */
-
-    /* section 8 book food   */
-
-    /* section 9 newsletter   */
    
 }
